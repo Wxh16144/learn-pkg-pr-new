@@ -2,7 +2,9 @@
   "name": "@wuxh/learn-pkg-pr-new-foo",
   "version": "1.0.0",
   "description": "[FOO] sub package for testing",
-  "main": "index.js","scripts": {
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
     "build": "echo \"build FOO\""
   },
   "keywords": [
@@ -13,5 +15,7 @@
   ],
   "author": "Wxh16144<wxh16144@qq.com>",
   "license": "MIT",
-  "packageManager": "pnpm@8.15.8"
+  "dependencies": {
+    "@wuxh/learn-pkg-pr-new": "workspace:*"
+  }
 }

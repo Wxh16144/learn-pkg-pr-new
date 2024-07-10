@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "testing https://github.com/stackblitz-labs/pkg.pr.new",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "echo \"build HOME\""
   },

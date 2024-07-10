@@ -1,0 +1,21 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/bar:
+    dependencies:
+      '@wuxh/learn-pkg-pr-new-foo':
+        specifier: workspace:^
+        version: link:../foo
+
+  packages/foo:
+    dependencies:
+      '@wuxh/learn-pkg-pr-new':
+        specifier: workspace:*
+        version: link:../..
