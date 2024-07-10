@@ -1,0 +1,17 @@
+{
+  "name": "@wuxh/learn-pkg-pr-new",
+  "version": "0.0.1",
+  "description": "testing https://github.com/stackblitz-labs/pkg.pr.new",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"build home pkg\""
+  },
+  "keywords": [
+    "testing",
+    "pkg.pr.new",
+    "Draft",
+    "WIP"
+  ],
+  "author": "Wxh16144<wxh16144@qq.com>",
+  "license": "MIT"
+}
