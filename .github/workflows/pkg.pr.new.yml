@@ -1,0 +1,34 @@
+name: Publish Any Commit
+
+on:
+  push:
+    branches:
+      - release/*
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8.15.8
+
+      - name: Install deps
+        run: pnpm install
+
+      - name: Build
+        run: pnpm run build:all
+
+      - run: npx pkg-pr-new publish './packages/*'
