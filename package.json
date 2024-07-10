@@ -4,7 +4,7 @@
   "description": "testing https://github.com/stackblitz-labs/pkg.pr.new",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"build home pkg\""
+    "build": "echo \"build HOME\""
   },
   "keywords": [
     "testing",
@@ -13,5 +13,6 @@
     "WIP"
   ],
   "author": "Wxh16144<wxh16144@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@8.15.8"
 }

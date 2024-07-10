@@ -1,0 +1,17 @@
+{
+  "name": "@wuxh/learn-pkg-pr-new-foo",
+  "version": "1.0.0",
+  "description": "[FOO] sub package for testing",
+  "main": "index.js","scripts": {
+    "build": "echo \"build FOO\""
+  },
+  "keywords": [
+    "testing",
+    "pkg.pr.new",
+    "Draft",
+    "WIP"
+  ],
+  "author": "Wxh16144<wxh16144@qq.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@8.15.8"
+}
