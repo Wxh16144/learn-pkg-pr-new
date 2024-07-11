@@ -31,6 +31,6 @@ jobs:
       - name: Build
         run: pnpm run build:all
 
-      - run: npx pkg-pr-new publish './packages/*' '.' --template './examples/*' --pnpm --comment=update
+      - run: npx -p @wuxh/pkg-pr-new@0.0.15-fork.1 pkg-pr-new publish './packages/*' '.' --template './examples/*' --pnpm --comment=update
         env:
           NODE_OPTIONS: "--max_old_space_size=8192"
