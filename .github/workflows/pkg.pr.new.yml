@@ -31,4 +31,4 @@ jobs:
       - name: Build
         run: pnpm run build:all
 
-      - run: npx pkg-pr-new publish './packages/*' '.' --pnpm --comment=update
+      - run: npx pkg-pr-new publish './packages/*' '.' --template './examples/*' --pnpm --comment=update
