@@ -1,0 +1,19 @@
+{
+  "name": "all",
+  "private": true,
+  "description": "All packages Playground",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.js"
+  },
+  "author": "Wxh16144<wxh16144@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@wuxh/learn-pkg-pr-new": "workspace:*",
+    "@wuxh/learn-pkg-pr-new-bar": "workspace:*",
+    "@wuxh/learn-pkg-pr-new-foo": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "*"
+  }
+}

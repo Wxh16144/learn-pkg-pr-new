@@ -1,0 +1,17 @@
+{
+  "name": "bar-playground",
+  "private": true,
+  "description": "All packages Playground",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.js"
+  },
+  "author": "Wxh16144<wxh16144@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@wuxh/learn-pkg-pr-new-bar": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "*"
+  }
+}
