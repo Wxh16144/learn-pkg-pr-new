@@ -33,4 +33,4 @@ jobs:
 
       - run: npx pkg-pr-new publish './packages/*' '.' --template './examples/*' --pnpm --comment=update
         env:
-          NODE_OPTIONS: "--max_old_space_size=4096"
+          NODE_OPTIONS: "--max_old_space_size=8192"
